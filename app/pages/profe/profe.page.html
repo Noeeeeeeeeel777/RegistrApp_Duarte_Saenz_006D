@@ -1,0 +1,35 @@
+<body>
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+        <ion-button (click)="MostrarMenu()" color="warning">
+          <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title>
+        REGISTRAR ASISTENCIA
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content [fullscreen]="true" style="display: flex; flex-direction: column; align-items: center;">
+    <ion-header collapse="condense">
+    </ion-header>
+    <ion-card class="mi-card">
+      <ion-card-header>
+        <ion-card-title class="ion-text-center" style="font-family: 'Kanit', sans-serif; font-size: 24px;">
+          <br>Genera tu código QR <br>
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content class="ion-text-center" style="font-family: 'Quicksand', sans-serif;" >
+        <p style="font-size: 24px;">Presiona el círculo</p>
+         <!-- Utiliza ion-img y agrega el evento (click) para la navegación -->
+         <ion-img src="assets/BotonQr.png" class="ion-padding"  [routerLink] = "['/qr']"></ion-img>
+      </ion-card-content>
+    </ion-card>
+
+
+  </ion-content>
+
+</body>
+

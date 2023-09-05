@@ -1,0 +1,20 @@
+body{
+    --ion-background-color: #E0B0FF !important;
+}
+   
+    
+.mi-card {
+    background-color: rgba(255, 255, 255, 0.635); /* Cambia el color de fondo a tu elección */
+    color: #401623; /* Cambia el color del texto si es necesario */
+}
+
+
+ion-card-title {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700; /* Negrita */
+}
+
+ion-button {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700; /* Negrita */
+}

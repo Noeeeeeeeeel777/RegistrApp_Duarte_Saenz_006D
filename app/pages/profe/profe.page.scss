@@ -1,0 +1,34 @@
+body{
+    --ion-background-color: #E0B0FF !important;
+}
+   
+.mi-card {
+    background-color: rgba(255, 255, 255, 0.635); /* Cambia el color de fondo a tu elección */
+    color: #401623; /* Cambia el color del texto si es necesario */
+}
+
+ion-img {
+    width: 170px; /* Cambia el ancho a tu preferencia */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+    display: block; /* Cambia a "inline-block" si es necesario */
+    margin: 0 auto; /* Esto centrará horizontalmente la imagen */
+}
+
+ion-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+ion-card-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #540c84;
+}
+
+ion-card-content {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700; /* Negrita */
+    padding: 40px;
+}
+

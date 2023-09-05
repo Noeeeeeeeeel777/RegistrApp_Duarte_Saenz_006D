@@ -1,0 +1,72 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"
+         color="warning"></ion-back-button>
+    </ion-buttons>
+    <ion-title>REGISTRARSE</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" style="height: 90%;">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Ingresa tus datos</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <form [formGroup]="formularioRegistro">
+        <ion-item>   
+          <ion-label position="floating">Nombre</ion-label>
+          <ion-input fromControlName="nombre"></ion-input>
+        </ion-item>
+        <ion-item>   
+          <ion-label position="floating">Apellido</ion-label>
+          <ion-input fromControlName="nombre"></ion-input>
+        </ion-item>
+        <ion-item>   
+          <ion-label position="floating">Edad</ion-label>
+          <ion-input fromControlName="nombre"></ion-input>
+        </ion-item>
+        <ion-item>   
+          <ion-label position="floating">Rut</ion-label>
+          <ion-input fromControlName="nombre"></ion-input>
+        </ion-item>
+        <ion-item>   
+          <ion-label position="floating">Correo</ion-label>
+          <ion-input fromControlName="nombre"></ion-input>
+        </ion-item>
+        <ion-item>   
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input fromControlName="password" type="password"></ion-input>
+        </ion-item>
+        <ion-item>   
+          <ion-label position="floating">Confirmar Contraseña</ion-label>
+          <ion-input fromControlName="password" type="password"></ion-input>
+        </ion-item>
+        <ion-list>
+          <br>
+          <ion-label position="floating">Seleccione Jornada</ion-label>
+          <ion-radio-group fromControlName="password" name="auto" value="tesla">
+            <ion-item>
+              <ion-label>Diurno</ion-label>
+              <ion-radio value="Diurno"></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>Vespertino</ion-label>
+              <ion-radio value="Vespertino"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </form>
+      <br>
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <ion-button [routerLink] = "['/inicio']" color="secondary" shape="round" fill="solid" class="ion-text-center">
+          ENTRAR
+        </ion-button>
+        </div> <br>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
+

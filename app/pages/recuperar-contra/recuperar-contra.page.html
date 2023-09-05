@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"
+         color="warning"></ion-back-button>
+    </ion-buttons>
+    <ion-title>RECUPERAR CONTRASEÑA</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>INGRESA TUS DATOS</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <form [formGroup]="formularioRecuperarContra">
+
+        <ion-item>   
+          <ion-label position="floating">Nueva Contraseña</ion-label>
+          <ion-input fromControlName="password" type="password"></ion-input>
+        </ion-item>
+        <ion-item>   
+          <ion-label position="floating">Confirmar Contraseña</ion-label>
+          <ion-input fromControlName="password" type="password"></ion-input>
+        </ion-item>
+      </form>
+      <br>
+      
+      <div style="display: flex; flex-direction: column; align-items: center;">
+      <ion-button [routerLink] = "['/inicio']" color="secondary" shape="round" fill="solid" class="ion-text-center">
+        ENVIAR
+      </ion-button>
+      </div>
+
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+
+

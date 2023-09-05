@@ -1,0 +1,49 @@
+<body>
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button (click)="MostrarMenu()" color="warning">
+        <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+      <ion-title>
+        INFORMACIÓN
+      </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+  </ion-header>
+
+  <ion-card class="mi-card">
+      <ion-card-header>
+          <ion-card-title  position="center" style="font-size: 27px;" >
+            RegistrAPP 
+          </ion-card-title>
+      </ion-card-header>
+      <ion-card-content class="ion-text-justify" style="font-family: 'Quicksand', sans-serif;">
+        <p>Es una aplicación poderosa y versátil que ofrece:</p>
+        <br>
+        <p>• Reducir los tiempos destinados para registrar la asistencia.</p>
+        <br>
+        <p>¡El docente está a un Click de generar el código QR y el estudiante de escanearlo y quedar PRESENTE!</p>
+
+        <div><img src="assets/check.png" class="ion-padding">
+        </div>
+        
+      </ion-card-content>
+
+  </ion-card>
+
+  <ion-footer  fixed="true" >
+    <ion-toolbar style="color: #fe5489;">
+      <a href="https://www.facebook.com/"><ion-icon name="logo-facebook" class="icon-container"></ion-icon></a>
+      <a href="https://www.instagram.com/"><ion-icon name="logo-instagram" class="icon-container"></ion-icon></a>
+      <a href="https://www.tiktok.com/"><ion-icon name="logo-tiktok" class="icon-container"></ion-icon></a>
+    </ion-toolbar>
+  </ion-footer>
+
+</ion-content>
+
+</body>

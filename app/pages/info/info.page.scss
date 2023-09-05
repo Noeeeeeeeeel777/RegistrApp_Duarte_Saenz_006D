@@ -1,0 +1,47 @@
+body{
+    --ion-background-color: #eed6ff !important;
+}
+.mi-card {
+    background-color: rgba(255, 255, 255, 0.781); /* Cambia el color de fondo a tu elección */
+    color: #000000; /* Cambia el color del texto si es necesario */
+}
+
+ion-footer a {
+    color: #fe5489; /* Cambia el color del texto de los enlaces */
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 30px; /* Ajusta el margen entre los iconos según sea necesario */
+    justify-content: center;
+    padding-left: 50px; 
+}
+
+ion-footer {
+    background-color: #401623 ;
+}
+
+.icon-container {
+    font-size: 20px; /* Cambia el tamaño a tu preferencia */
+}
+
+ion-content {
+    --background: url('/assets/escaneo.jpg') no-repeat center center fixed;
+    background-size: contain !important;
+}
+
+ion-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+ion-card-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #540c84;
+}
+
+ion-card-content {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700; /* Negrita */
+    padding: 40px;
+}
